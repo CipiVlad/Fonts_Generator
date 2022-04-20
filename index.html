@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms-js_fonts-generator</title>
+    <link rel="stylesheet" href="asstes/css/style.css">
+</head>
+
+<body>
+    <h1>Fonts Generator</h1>
+    <form action="">
+
+        <label for="">Font Size:</label>
+        <input type="range" id="font-size" min="0" max="100" step="1" onchange="change()">
+        <select name="" id="font-family" onchange="change()">
+            <option id="" value='Bodoni Moda' serif>'Bodoni Moda' serif</option>
+            <option id="" value='Open Sans' , sans-serif>'Open Sans', sans-serif</option>
+            <option value='Roboto' , sans-serif>'Roboto', sans-serif</option>
+            <option value='Yusei Magic' , sans-serif>'Yusei-Magic', sans serif</option>
+        </select>
+        <input type="text" id="input-text" onchange="change()">
+    </form>
+    <p id="result"></p>
+    <script src="asstes/js/main.js"></script>
+</body>
+
+</html>

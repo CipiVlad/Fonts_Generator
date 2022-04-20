@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Yusei+Magic&display=swap');
+
+font-family: 'Bodoni Moda',
+serif;
+font-family: 'Open Sans',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Yusei Magic',
+sans-serif;
+
+
+.fontbodoni {
+    font-family: 'Courier New', Courier, monospace;
+}
